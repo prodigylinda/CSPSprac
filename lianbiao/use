@@ -1,0 +1,11 @@
+struct Node{
+  int value;
+  Node *next;
+}
+void insertnode{
+  Node *node = new Node;
+  node->value =i;
+  node->next = p->next;
+  p->next = node;
+}
+  
