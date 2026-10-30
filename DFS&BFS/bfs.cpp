@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int n;
-vector<int> g(n);
+vector<vector<int>> g(n);
 int dis[n];
 void bfs(int s,int n){
   fill(dis,dis+n+1,-1);
